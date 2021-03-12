@@ -1,0 +1,13 @@
+{
+       "dev_status":1,
+       "dev_subserial":"104711049",
+       "dev_verification_code":"QWERTY",
+       "dev_serial":"CS-C2C-1A1WFR0020170214CCCH104711049",
+       "dev_firmwareversion":"V5.1.3 build 170712",
+       "dev_type":"CS-C2C-1A1WFR",
+       "dev_typedisplay":"CS-C6-21WFR",
+       "dev_mac":"E076D047CFBE",
+       "dev_nickname":"test",
+       "dev_firmwareidentificationcode":"",
+       "dev_oeminfo":100
+}
