@@ -1,44 +1,33 @@
-/**
- * \file 		doc_mainpage.h
+
+ /*!\mainpage Ó©Ê¯ezDevSDKÊ¹ï¿½ï¿½Ëµï¿½ï¿½ v1.0.0
  *
- * \brief 		ezDevSDK Doxygen ÎÄµµÖ÷Ò³Ãæ
-  *
- * \copyright	HangZhou Hikvision System Technology Co.,Ltd. All Right Reserved.
+ * \section brief_sec  SDKï¿½ï¿½ï¿½ï¿½
  *
- * \author		xurongjun
+ * Ó©Ê¯ezDevSDKï¿½ï¿½Ò²ï¿½ï¿½ï¿½è±¸SDKï¿½ï¿½Ä¿Ç°Ö§ï¿½ï¿½Windowsï¿½ï¿½Linuxï¿½ï¿½Androidï¿½ï¿½CentOSï¿½ï¿½Realtek-RTOSï¿½È¶ï¿½ï¿½Æ½Ì¨ï¿½ï¿½ezDevSDKï¿½ï¿½Òªï¿½ï¿½Î¢ï¿½ÚºËºï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î£¬ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½SDKï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ¿ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£¬ï¿½ï¿½ï¿½ã¶¨ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * \image html ezDevSDK_Architecture.JPG SDKï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  *
- * \date		2018/07/27
- */
- 
-/*!\mainpage Ó©Ê¯ezDevSDKÊ¹ÓÃËµÃ÷ v1.0.0
- *
- * \section brief_sec  SDK¸ÅÊö
- *
- * Ó©Ê¯ezDevSDK£¬Ò²³ÆÉè±¸SDK£¬Ä¿Ç°Ö§³ÖWindows¡¢Linux¡¢Android¡¢CentOS¡¢Realtek-RTOSµÈ¶à¸öÆ½Ì¨¡£ezDevSDKÖ÷ÒªÓÉÎ¢ÄÚºËºÍÁìÓòÄ£¿é×é³É£¬¾«¼òÁé»î£¬ÓÃ»§¿ÉÒÔ¸ù¾Ý×ÔÉíÒµÎñµÄÐèÇó£¬
- * ÀûÓÃÒÑÓÐµÄÁìÓòÄ£¿é×éºÏ×Ô¼ºµÄSDK£¬Ò²¿ÉÒÔÔÚÒÑÓÐµÄ¿ò¼ÜÉÏ£¬¿ª·¢×Ô¼ºµÄÁìÓòÄ£¿é£¬Âú×ã¶¨ÖÆµÄÌØÊâÐèÇó¡£
- * \image html ezDevSDK_Architecture.JPG SDKÕûÌå¿ò¼Ü
- *
- * \subsection microkernel_subsec Î¢ÄÚºË
+ * \subsection microkernel_subsec Î¢ï¿½Úºï¿½
  * 
- * ¸ºÔðÉè±¸½ÓÈëÓ©Ê¯ÔÆ£¬ÒµÎñÏûÏ¢Í¨µÀ£¬ÁìÓòÄ£¿é¹ÜÀí¡£Î¢ÄÚºËÒÔÇáÁ¿¡¢Ò×ÍØÕ¹ÎªÄ¿±ê£¬Ö»Ìá¹©¼òµ¥µÄ»ù´¡·þÎñ£¬Í¨¹ý·â×°ÓëÆ½Ì¨µÄ½»»¥µÄÏûÏ¢ÊÕ·¢»úÖÆ£¬ÎªÉÏ²ãºÍÓ©Ê¯ÔÆÆ½Ì¨Ö®¼ä´´½¨ÏûÏ¢Í¨µÀ£¬¾ßÌåµÄÒµÎñÂß¼­ÓÉÉÏ²ã³ÌÐòÊµÏÖ£¬Î¢ÄÚºË²»¹ØÐÄÒµÎñÊµÏÖ¡£ 
+ * ï¿½ï¿½ï¿½ï¿½ï¿½è±¸ï¿½ï¿½ï¿½ï¿½Ó©Ê¯ï¿½Æ£ï¿½Òµï¿½ï¿½ï¿½ï¿½Ï¢Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ÎªÄ¿ï¿½ê£¬Ö»ï¿½á¹©ï¿½òµ¥µÄ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½Æ½Ì¨ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Õ·ï¿½ï¿½ï¿½ï¿½Æ£ï¿½Îªï¿½Ï²ï¿½ï¿½Ó©Ê¯ï¿½ï¿½Æ½Ì¨Ö®ï¿½ä´´ï¿½ï¿½ï¿½ï¿½Ï¢Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö£ï¿½Î¢ï¿½ÚºË²ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½Êµï¿½Ö¡ï¿½ 
  *
  * \subsection sdkboot_subsec SDKboot
  *
- * ¶ÔÎ¢ÄÚºËµÄ¼òµ¥·â×°£¬Ìá¹©½Ó¿Ú¶ÔÎ¢ÄÚºË½øÐÐ¼òµ¥¹ÜÀí£¬Èç³õÊ¼»¯£¬ÆôÍ£¡¢×¢ÏúµÈ¡£¸ºÔðÏß³Ì¡¢Ê±¼ä¡¢ÎÄ¼þµÈºÍÏµÍ³Ïà¹ØÐÔ½Ï´ó²Ù×÷£¬¸¨ÖúÎ¢ÄÚºË¹¤×÷£¬ÊÇezDevSDK²»¿ÉÈ±ÉÙµÄÒ»²¿·Ö¡£
+ * ï¿½ï¿½Î¢ï¿½ÚºËµÄ¼òµ¥·ï¿½×°ï¿½ï¿½ï¿½á¹©ï¿½Ó¿Ú¶ï¿½Î¢ï¿½ÚºË½ï¿½ï¿½Ð¼òµ¥¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½×¢ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¡ï¿½Ê±ï¿½ä¡¢ï¿½Ä¼ï¿½ï¿½Èºï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½Ô½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ÚºË¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ezDevSDKï¿½ï¿½ï¿½ï¿½È±ï¿½Ùµï¿½Ò»ï¿½ï¿½ï¿½Ö¡ï¿½
  *
- * \subsection domain_subsec ÁìÓòÄ£¿é
+ * \subsection domain_subsec ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½
  *
- * ¾ßÌåÒµÎñµÄÊµÏÖ¡£ezDevSDKÒµÎñÄ£¿é°´ÁìÓòµÄ·½Ê½½øÐÐ¹¦ÄÜµÄ»®·Ö£¬Ã¿¸öÁìÓò¶¼ÓÐÎ¨Ò»µÄÁìÓòID£¬Èç¹ûÐèÒª¿ª·¢ÐÂµÄÁìÓòÓ¦¸ÃºÍ·þÎñÆ÷ÊÂÏÈÔ¼¶¨£¬·ÖÅäÏàÓ¦µÄÁìÓòID¡£ÓÃ»§¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÇó£¬Ñ¡ÔñÒ»¸ö»ò¶à¸öÁìÓòÄ£¿é×é³ÉSDK£¬Ä¿Ç°ÒÑÓÐµÄÁìÓòÓÐ£º
+ * ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Êµï¿½Ö¡ï¿½ezDevSDKÒµï¿½ï¿½Ä£ï¿½é°´ï¿½ï¿½ï¿½ï¿½Ä·ï¿½Ê½ï¿½ï¿½ï¿½Ð¹ï¿½ï¿½ÜµÄ»ï¿½ï¿½Ö£ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¨Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ÃºÍ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IDï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½SDKï¿½ï¿½Ä¿Ç°ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½
  * \image html domain_Existed.JPG
  *
- * \subsection common_subsec Í¨ÓÃÄ£¿é
+ * \subsection common_subsec Í¨ï¿½ï¿½Ä£ï¿½ï¿½
  *
- * ÌØÊâµÄÁìÓòÄ£¿é£¬¸ºÔðÍ¨ÓÃÖ¸ÁîÖØ¶¨Ïò£¬Í¨³£ÔÚ¿ª·¢ÁìÓòÄ£¿éµÄ¹ý³ÌÖÐ»áÓÃµ½¡£ÓÐÐ©Ö¸Áî»áÔÚ¶à¸öÁìÓòÖÐÊ¹ÓÃ£¬±»»®·Öµ½Í¨ÓÃÁìÓòÄ£¿é¡£µ±·¢ÉúÖ¸Áî½»»¥Ê±£¬Î¢ÄÚºËÐèÒªÖªµÀ½«ÕâÌõÖ¸Áî½»¸øÄÄ¸öÁìÓòÄ£¿é´¦Àí£¬ÕâÊ±¾ÍÐèÒª¸ù¾Ý¾ßÌåÖ¸ÁîÏûÏ¢ÌåÖÐµÄType×Ö¶ÎÀ´ÅÐ¶Ï¡£Type×Ö¶ÎÓÉÁìÓò¿ª·¢ÕßºÍ·þÎñÆ÷ÊÂÏÈÔ¼¶¨£¬ÔÚÏòÎ¢ÄÚºË×¢²áÁìÓòÄ£¿éµÄÍ¬Ê±×¢²áÖØ¶¨ÏòÐÅÏ¢£¬ÕâÑùÎ¢ÄÚºË²Å»á½«ÕâÌõÖ¸ÁîÂ·ÓÉ¸ö¸ø¸ÃÁìÓòÄ£¿é´¦Àí¡£Ä¿Ç°ÐèÒªÖØ¶¨ÏòµÄÖ¸ÁîÓÐ£º
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£¬ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½Ð©Ö¸ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½î½»ï¿½ï¿½Ê±ï¿½ï¿½Î¢ï¿½Úºï¿½ï¿½ï¿½ÒªÖªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½î½»ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é´¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ý¾ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ðµï¿½Typeï¿½Ö¶ï¿½ï¿½ï¿½ï¿½Ð¶Ï¡ï¿½Typeï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò¿ª·ï¿½ï¿½ßºÍ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½Úºï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Í¬Ê±×¢ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ÚºË²Å»á½«ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Â·ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é´¦ï¿½ï¿½ï¿½ï¿½Ä¿Ç°ï¿½ï¿½Òªï¿½Ø¶ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ð£ï¿½
  * \image html common_Command.JPG
  *
- * \section instructions_sec SDKÊ¹ÓÃËµÃ÷
+ * \section instructions_sec SDKÊ¹ï¿½ï¿½Ëµï¿½ï¿½
  *
- * ÎªÁË·½±ãÇ¶ÈëÊ½¿ª·¢ÕßÊìÏ¤SDK£¬¿ìËÙ½ÓÈëÓ©Ê¯ÔÆÆ½Ì¨£¬ezDevSDK°´¹¦ÄÜ½øÐÐ»®·Ö£¬Îª²»Í¬ÐèÇóµÄ¿ª·¢ÕßÒÔÔ´ÂëÐÎÊ½Ìá¹©¶ÔÓ¦µÄDemo£¬¿ª·¢ÕßÖ»ÒªÔÚ´Ë»ù´¡ÉÏ£¬¸ù¾ÝDemoÔ´Âë×¢ÊÍµÄÌáÊ¾£¬ÔÚÏàÓ¦µÄµØ·½ÌîÈë×Ô¼ºµÄÒµÎñÂß¼­£¬¾Í¿ÉÒÔÏàÓ¦µÄ¹¦ÄÜ¡£ 
+ * Îªï¿½Ë·ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤SDKï¿½ï¿½ï¿½ï¿½ï¿½Ù½ï¿½ï¿½ï¿½Ó©Ê¯ï¿½ï¿½Æ½Ì¨ï¿½ï¿½ezDevSDKï¿½ï¿½ï¿½ï¿½ï¿½Ü½ï¿½ï¿½Ð»ï¿½ï¿½Ö£ï¿½Îªï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½Ê½ï¿½á¹©ï¿½ï¿½Ó¦ï¿½ï¿½Demoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»Òªï¿½Ú´Ë»ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½DemoÔ´ï¿½ï¿½×¢ï¿½Íµï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ÄµØ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ä¹ï¿½ï¿½Ü¡ï¿½ 
  * 
  * \subsection directory_subsec SDKÄ¿Â¼
  *
@@ -66,12 +55,12 @@
  |    |----thirdparty_domain_demo.c
  \endverbatim
  *
- * \subsection dir_detail_subsec Ä¿Â¼ºÍÎÄ¼þËµÃ÷
+ * \subsection dir_detail_subsec Ä¿Â¼ï¿½ï¿½ï¿½Ä¼ï¿½Ëµï¿½ï¿½
  *
- * - incÄ¿Â¼£ºezDevSDKµÄÍ·ÎÄ¼þ
- * - libÄ¿Â¼£ºezDevSDKµÄ¿âÎÄ¼þ
- * - dev_info£ºÉè±¸ÐÅÏ¢ÎÄ¼þ£¬ÓÃÓÚÉè±¸½ÓÈëÊ¹ÓÃ£¬Ò»°ã²ÉÓÃjsonµÄ¸ñÊ½´æ´¢ÔÚÉè±¸FlashÖÐ£¬×Ö¶ÎµÄ¶¨ÒåÏê¼û \c ezdev_sdk_kernel_init()
- * - hello_microkernel.c£ºÊ¾Àý´úÂë£¬ÑÝÊ¾Éè±¸ÉÏÏß¡£ÓÃÓÚÕ¹Ê¾Î¢ÄÚºËµÄ×î»ù´¡¹¦ÄÜºÍµ÷ÓÃ·½Ê½
- * - domain_abc.c£ºÊ¾Àý´úÂë£¬ÑÝÊ¾ÁìÓòÄ£¿éµÄ¿ª·¢ºÍ×¢²á£¬ÁíÍâÀûÓÃÍ¨ÓÃÄ£¿é½øÐÐÖ¸ÁîÖØ¶¨ÏòµÄÓÃ·¨
- * - thirdparty_domain_demo.c£ºÍ¨¹ý¶ÔÒÑÓÐµÄ¿ª·ÅÆ½Ì¨ÁìÓòISAPI¹¦ÄÜµÄÊ¹ÓÃ£¬ÑÝÊ¾ÁËÔõÃ´Ê¹ÓÃÒÑÓÐµÄÁìÓòÄ£¿éºÍÔõÃ´ÀûÓÃ¸ÃÄ£¿éÍ¸Ã÷Í¨µÀ¹¦ÄÜ½øÐÐµÚÈý·½APPºÍÉè±¸Ö®¼ä½øÐÐÊý¾Ý´«Êä
+ * - incÄ¿Â¼ï¿½ï¿½ezDevSDKï¿½ï¿½Í·ï¿½Ä¼ï¿½
+ * - libÄ¿Â¼ï¿½ï¿½ezDevSDKï¿½Ä¿ï¿½ï¿½Ä¼ï¿½
+ * - dev_infoï¿½ï¿½ï¿½è±¸ï¿½ï¿½Ï¢ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è±¸ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½jsonï¿½Ä¸ï¿½Ê½ï¿½æ´¢ï¿½ï¿½ï¿½è±¸Flashï¿½Ð£ï¿½ï¿½Ö¶ÎµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \c ezdev_sdk_kernel_init()
+ * - hello_microkernel.cï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½Ê¾ï¿½è±¸ï¿½ï¿½ï¿½ß¡ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹Ê¾Î¢ï¿½ÚºËµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÜºÍµï¿½ï¿½Ã·ï¿½Ê½
+ * - domain_abc.cï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½á£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½Ã·ï¿½
+ * - thirdparty_domain_demo.cï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ¿ï¿½ï¿½ï¿½Æ½Ì¨ï¿½ï¿½ï¿½ï¿½ISAPIï¿½ï¿½ï¿½Üµï¿½Ê¹ï¿½Ã£ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ã´Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½Ã¸ï¿½Ä£ï¿½ï¿½Í¸ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Ü½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½APPï¿½ï¿½ï¿½è±¸Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ï¿½
  */

@@ -135,10 +135,7 @@ function generate_config()
 		fi
 		
 		# 根据ToolChain名指定对应的编译工具，有符号链接和全路径链接的方式
-		if [ "arm-hik_v7a-linux-uclibcgnueabi-gcc-raw" == "$3" ]; then
-			echo "SET(CMAKE_C_COMPILER \"arm-hik_v7a-linux-uclibcgnueabi-gcc-raw\")" >> $1
-			echo "SET(CMAKE_CXX_COMPILER \"arm-hik_v7a-linux-uclibcgnueabi-g++-raw\")" >> $1
-		elif [ "gcc" == "$3" ]; then
+		if [ "gcc" == "$3" ]; then
 				echo "SET(CMAKE_C_COMPILER \"gcc\")" >> $1
 				echo "SET(CMAKE_CXX_COMPILER \"g++\")" >> $1	
 		else
@@ -168,9 +165,7 @@ function generate_config()
 		
 		# 如果编译动态库需要制定strip工具
 		if [ $DYNAMIC_SWITCH -eq 1 ]; then
-			if [ "arm-hik_v7a-linux-uclibcgnueabi-gcc-raw" == "$3" ]; then
-				TOOL_STRIP="arm-hik_v7a-linux-uclibcgnueabi-strip"
-			elif [ "gcc" == "$3" ]; then
+			if [ "gcc" == "$3" ]; then
 				TOOL_STRIP="strip"
 			else
 				TOOL_STRIP="$3-strip"

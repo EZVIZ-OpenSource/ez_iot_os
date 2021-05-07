@@ -58,8 +58,8 @@ extern "C"
  *				{
  *				"dev_auth_mode":1,										选填,默认0;License认证模式
  *				"dev_access_mode":0										选填,默认0;设备接入模式  0-普通（2.0）   1-HUB（2.0）
- *				"dev_productKey":"HIK_PARKING_PLANTFORM",				必填;通过license申请接口申请出来：productKey
- *				"dev_deviceName":"HIKPP12345",							必填;通过license申请接口申请出来：dev_deviceName
+ *				"dev_productKey":"xxxxxx",				必填;通过license申请接口申请出来：productKey
+ *				"dev_deviceName":"xxxxxx",							必填;通过license申请接口申请出来：dev_deviceName
  *				"dev_deviceLicense":"Lm9HhDdtvqWXR2F52or6p3",			必填;通过license申请接口申请出来：dev_deviceLicense
  *				"dev_mac":"004048C5E1B8",								必填;设备网上物理地址(最大64)
  *				"dev_nickname":"C1(411444968)",							必填;设备昵称(最大64)	

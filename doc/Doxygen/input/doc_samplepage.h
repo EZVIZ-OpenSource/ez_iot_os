@@ -1,22 +1,11 @@
-/**
- * \file 		doc_samplepage.h
- *
- * \brief 		ezDevSDK Doxygen ÎÄµµÊ¾ÀýÒ³Ãæ
-  *
- * \copyright	HangZhou Hikvision System Technology Co.,Ltd. All Right Reserved.
- *
- * \author		xurongjun
- *
- * \date		2018/07/27
- */
  
 /** \example hello_microkernel.c
- * ÑÝÊ¾Éè±¸ÉÏÏß¡£ÓÃÓÚÕ¹Ê¾Î¢ÄÚºËµÄ×î»ù´¡¹¦ÄÜºÍµ÷ÓÃ·½Ê½¡£
+ * ï¿½ï¿½Ê¾ï¿½è±¸ï¿½ï¿½ï¿½ß¡ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹Ê¾Î¢ï¿½ÚºËµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÜºÍµï¿½ï¿½Ã·ï¿½Ê½ï¿½ï¿½
  *
  * \example domain_abc.c
- * ÑÝÊ¾ÁìÓòÄ£¿éµÄ¿ª·¢ºÍ×¢²á£¬ÁíÍâÀûÓÃÍ¨ÓÃÄ£¿é½øÐÐÖ¸ÁîÖØ¶¨ÏòµÄÓÃ·¨¡£
+ * ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½á£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½
  *
  * \example thirdparty_domain_demo.c
- * Í¨¹ý¶ÔÒÑÓÐµÄ¿ª·ÅÆ½Ì¨ÁìÓòISAPI¹¦ÄÜµÄÊ¹ÓÃ£¬ÑÝÊ¾ÁËÔõÃ´Ê¹ÓÃÒÑÓÐµÄÁìÓòÄ£¿éºÍÔõÃ´ÀûÓÃ¸ÃÄ£¿éÍ¸Ã÷Í¨µÀ¹¦ÄÜ½øÐÐµÚÈý·½APPºÍÉè±¸Ö®¼ä½øÐÐÊý¾Ý´«Êä¡£
+ * Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ¿ï¿½ï¿½ï¿½Æ½Ì¨ï¿½ï¿½ï¿½ï¿½ISAPIï¿½ï¿½ï¿½Üµï¿½Ê¹ï¿½Ã£ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ã´Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½Ã¸ï¿½Ä£ï¿½ï¿½Í¸ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Ü½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½APPï¿½ï¿½ï¿½è±¸Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ä¡£
  *
  */

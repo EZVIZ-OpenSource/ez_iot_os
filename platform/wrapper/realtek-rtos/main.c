@@ -397,12 +397,11 @@ int ReportStatus_GetServerTimeStampReq(int socket)
     char *pBsdBuf = NULL;
 
     pBsdBuf = malloc(1400);
-  //  HIKbzero((char *)&stHead, sizeof(stHead));
     memset((char *)pBsdBuf,0, 1400);
 
     SendData = ezxml_new("Request");
     RootData = SendData;
-    //HIKbzero(sntemp, sizeof(sntemp));
+
    // memcpy(sntemp,g_bootparam.prodNo,9);
     ezxml_set_txt(ezxml_add_child(SendData, "DevSerial", 55), "999999998");  
     ezxml_set_txt(ezxml_add_child(SendData, "Authorization", 55), "");
@@ -412,15 +411,12 @@ int ReportStatus_GetServerTimeStampReq(int socket)
     ezxml_free(RootData); 
 
 
-   // stHead.dwSeq = HIKhtonl(g_dwSeq++);
-
     sTestBufLen = strlen(pBsdBuf);
 
     DBG_8195A("\r\n%s\r\n", pBsdBuf);
     
     iStatus= send_msg_to_platform(pBsdBuf, sTestBufLen,1100, 0x301f ,"1000") ; 
     
-    //iStatus = HIKsend(socket, pBsdBuf, sTestBufLen, 0 );
     if( iStatus < 0 )
     {
         free(pBsdBuf);
